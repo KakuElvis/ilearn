@@ -1,0 +1,23 @@
+{
+  "name": "ilearn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [
+    "online learning",
+    "education",
+    "courses",
+    "tutorials"
+  ],
+  "author": "Elvis Kaku",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "elearning platform for online courses and tutorials",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "tailwindcss": "^4.1.10"
+  }
+}

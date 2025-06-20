@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>iLearn</title>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans ">
+  
+<nav class="flex items-center justify-between px-20 py-8 bg-blue-900 shadow sticky">
+    <div class="flex items-center space-x-8 ml-8">
+        <span class="text-3xl font-bold text-white">iLearn</span>
+        <ul class="flex space-x-6 text-2xl absolute left-1/2 transform -translate-x-1/2">
+            <li><a href="#" class="text-white hover:text-blue-600 font-medium">Home</a></li>
+            <li><a href="#" class="text-white hover:text-blue-600 font-medium">Courses</a></li>
+            <li><a href="#" class="text-white hover:text-blue-600 font-medium">About</a></li>
+            <li><a href="#" class="text-white hover:text-blue-600 font-medium">Contact</a></li>
+        </ul>
+    </div>
+    <div class="flex items-center text-2xl space-x-6">
+        <!-- <span class="text-white font-medium">+233248052496</span> -->
+        <button class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition cursor-pointer">Get For Free</button>
+    </div>
+</nav>
+
+<section class="flex flex-col md:flex-row items-center justify-between px-20 py-16 bg-blue-900">
+    <div class="md:w-1/2 mb-10 md:mb-0">
+        <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">Free online courses from iLearn</h1>
+        <p class="text-lg text-white mb-8">Upgrade your skills with our wide range of free online courses. Learn at your own pace, anytime, anywhere with iLearn.</p>
+        <button class="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">Browse Courses</button>
+    </div>
+    <div class="md:w-1/3 flex justify-center">
+        <img src="/src/img/study.svg" alt="Student holding book" class="rotate-y-180 rounded-lg w-full max-w-md object-cover">
+    </div>
+</section>
+
+<section class=" px-20 py-10 ">
+    <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-12 text-center">Popular Courses</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center border border-gray-200 hover:border-blue-600 transition duration-300 hover:scale-110">
+            <svg class="w-12 h-12 text-blue-600 mb-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" fill="none"/>
+                <path d="M3 8h18" stroke="currentColor"/>
+                <circle cx="7" cy="6" r="1" fill="currentColor"/>
+                <circle cx="11" cy="6" r="1" fill="currentColor"/>
+            </svg>
+            <h3 class="text-xl font-semibold text-blue-900 mb-4">Web Development</h3>
+            <p class="text-gray-700 mb-4 text-center">Learn the fundamentals of web development, including HTML, CSS, and JavaScript.</p>
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition cursor-pointer">Dig In</button>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center border border-gray-200 hover:border-blue-600 transition duration-300 hover:scale-110">
+            <svg class="w-12 h-12 text-blue-600 mb-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" fill="none"/>
+                <path d="M8 12a4 4 0 1 0 8 0" stroke="currentColor"/>
+                <path d="M12 8v4l3 3" stroke="currentColor"/>
+            </svg>
+            <h3 class="text-xl font-semibold text-blue-900 mb-4">Data Science</h3>
+            <p class="text-gray-700 mb-4 text-center">Dive into data analysis, machine learning, and statistical modeling.</p>
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition cursor-pointer">Dig In</button>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center border border-gray-200 hover:border-blue-600 transition duration-300 hover:scale-110">
+            <svg class="w-12 h-12 text-blue-600 mb-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M3 12l18-6v12L3 12z" stroke="currentColor" fill="none"/>
+                <circle cx="19" cy="12" r="1" fill="currentColor"/>
+            </svg>
+            <h3 class="text-xl font-semibold text-blue-900 mb-4">Digital Marketing</h3>
+            <p class="text-gray-700 mb-4 text-center">Master the art of online marketing, SEO, and social media strategies.</p>
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition cursor-pointer">Dig In</button>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center border border-gray-200 hover:border-blue-600 transition duration-300 hover:scale-110">
+            <svg class="w-12 h-12 text-blue-600 mb-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="8" stroke="currentColor" fill="none"/>
+                <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                <path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" stroke="currentColor"/>
+            </svg>
+            <h3 class="text-xl font-semibold text-blue-900 mb-4">Artificial Intelligence</h3>
+            <p class="text-gray-700 mb-4 text-center">Explore AI concepts, neural networks, and intelligent systems.</p>
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition cursor-pointer">Dig In</button>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center border border-gray-200 hover:border-blue-600 transition duration-300 hover:scale-110">
+            <svg class="w-12 h-12 text-blue-600 mb-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <rect x="3" y="12" width="4" height="8" rx="1" stroke="currentColor" fill="none"/>
+                <rect x="9" y="8" width="4" height="12" rx="1" stroke="currentColor" fill="none"/>
+                <rect x="15" y="4" width="4" height="16" rx="1" stroke="currentColor" fill="none"/>
+            </svg>
+            <h3 class="text-xl font-semibold text-blue-900 mb-4">Data Analytics</h3>
+            <p class="text-gray-700 mb-4 text-center">Gain skills in data visualization, dashboards, and business analytics.</p>
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition cursor-pointer">Dig In</button>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center border border-gray-200 hover:border-blue-600 transition duration-300 hover:scale-110">
+            <svg class="w-12 h-12 text-blue-600 mb-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" fill="none"/>
+                <circle cx="12" cy="12" r="4" stroke="currentColor" fill="none"/>
+                <path d="M16 8l2-2" stroke="currentColor"/>
+            </svg>
+            <h3 class="text-xl font-semibold text-blue-900 mb-4">Graphic Design</h3>
+            <p class="text-gray-700 mb-4 text-center">Unleash your creativity with courses on Photoshop, Illustrator, and design principles.</p>
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition cursor-pointer">Dig In</button>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center border border-gray-200 hover:border-blue-600 transition duration-300 hover:scale-110">
+            <svg class="w-12 h-12 text-blue-600 mb-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <rect x="5" y="11" width="14" height="8" rx="2" stroke="currentColor" fill="none"/>
+                <path d="M12 11V7a4 4 0 0 1 8 0v4" stroke="currentColor"/>
+                <circle cx="12" cy="15" r="2" stroke="currentColor" fill="none"/>
+            </svg>
+            <h3 class="text-xl font-semibold text-blue-900 mb-4">Cybersecurity</h3>
+            <p class="text-gray-700 mb-4 text-center">Protect systems and data with courses on network security and ethical hacking.</p>
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition cursor-pointer">Dig In</button>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center border border-gray-200 hover:border-blue-600 transition duration-300 hover:scale-110">
+            <svg class="w-12 h-12 text-blue-600 mb-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <rect x="7" y="2" width="10" height="20" rx="2" stroke="currentColor" fill="none"/>
+                <circle cx="12" cy="18" r="1" fill="currentColor"/>
+            </svg>
+            <h3 class="text-xl font-semibold text-blue-900 mb-4">Mobile App Development</h3>
+            <p class="text-gray-700 mb-4 text-center">Build mobile apps for Android and iOS using Flutter, React Native, and more.</p>
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition cursor-pointer">Dig In</button>
+        </div>
+    </div>
+</section>
+
+<section class="px-20 py-5">
+    <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-12 text-center">How to Get Started</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- <div class="flex flex-row"></div> -->
+            <!-- Step 1: Register -->
+            <div class="flex flex-col items-center  bg-white rounded-lg shadow-lg p-6">
+                <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Register" class="w-full rounded-lg shadow mb-4 object-cover">
+                <h3 class="text-2xl font-semibold text-blue-800 mb-3">1. Register Your Account</h3>
+                <p class="text-gray-700 text-lg text-center">Sign up easily with your email address and create a secure password. Our registration process is quick and user-friendly, so you can get started in no time.</p>
+            </div>
+            <!-- Step 2: Verify -->
+            <div class="flex flex-col items-center  bg-white rounded-lg shadow-lg p-6">
+                <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Verify" class="w-full rounded-lg shadow mb-4 object-cover">
+                <h3 class="text-2xl font-semibold text-blue-800 mb-3">2. Verify Your Email</h3>
+                <p class="text-gray-700 text-lg text-center">Check your inbox for a verification email. Click the link to confirm your account and unlock access to all our free courses.</p>
+            </div>
+            <!-- Step 3: Start Learning -->
+            <div class="flex flex-col items-center  bg-white rounded-lg shadow-lg p-6">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="Start Learning" class="w-full rounded-lg shadow mb-4 object-cover">
+                <h3 class="text-2xl font-semibold text-blue-800 mb-3">3. Start Learning</h3>
+                <p class="text-gray-700 text-lg text-center">Browse our catalog and enroll in any course that interests you. Learn at your own pace with interactive lessons and expert instructors.</p>
+            </div>
+            <!-- Step 4: Earn Certificate -->
+            <div class="flex flex-col items-center  bg-white rounded-lg shadow-lg p-6">
+                <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80" alt="Earn Certificate" class="w-full rounded-lg shadow mb-4 object-cover">
+                <h3 class="text-2xl font-semibold text-blue-800 mb-3">4. Earn Your Certificate</h3>
+                <p class="text-gray-700 text-lg text-center">Complete your course and receive a certificate of achievement to showcase your new skills and boost your career prospects.</p>
+            </div>
+        <!-- </div> -->
+    </div>
+</section>
+
+<section class="px-20 py-10 bg-blue-900 text-white">
+    <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">Testimonials</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white text-gray-800 p-6 rounded-lg shadow-lg">
+            <p class="text-lg mb-4">"iLearn has transformed my career! The courses are top-notch and the instructors are incredibly knowledgeable."</p>
+            <div class="flex items-center">
+                <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80" alt="User 1" class="w-12 h-12 rounded-full mr-4">
+                <div>
+                    <h4 class="font-semibold">John Doe</h4>
+                    <p class="text-sm text-gray-600">Web Developer</p>
+                </div> 
+            </div>
+        </div>
+        <div class="bg-white text-gray-800 p-6 rounded-lg shadow-lg">
+            <p class="text-lg mb-4">"iLearn has transformed my career! The courses are top-notch and the instructors are incredibly knowledgeable."</p>
+            <div class="flex items-center">
+                <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80" alt="User 1" class="w-12 h-12 rounded-full mr-4">
+                <div>
+                    <h4 class="font-semibold">John Doe</h4>
+                    <p class="text-sm text-gray-600">Web Developer</p>
+                </div> 
+            </div>
+        </div>
+        <div class="bg-white text-gray-800 p-6 rounded-lg shadow-lg">
+            <p class="text-lg mb-4">"iLearn has transformed my career! The courses are top-notch and the instructors are incredibly knowledgeable."</p>
+            <div class="flex items-center">
+                <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80" alt="User 1" class="w-12 h-12 rounded-full mr-4">
+                <div>
+                    <h4 class="font-semibold">John Doe</h4>
+                    <p class="text-sm text-gray-600">Web Developer</p>
+                </div> 
+            </div>
+        </div>
+        <div class="bg-white text-gray-800 p-6 rounded-lg shadow-lg">
+            <p class="text-lg mb-4">"iLearn has transformed my career! The courses are top-notch and the instructors are incredibly knowledgeable."</p>
+            <div class="flex items-center">
+                <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80" alt="User 1" class="w-12 h-12 rounded-full mr-4">
+                <div>
+                    <h4 class="font-semibold">John Doe</h4>
+                    <p class="text-sm text-gray-600">Web Developer</p>
+                </div> 
+            </div>
+        </div>
+        <div class="bg-white text-gray-800 p-6 rounded-lg shadow-lg">
+            <p class="text-lg mb-4">"iLearn has transformed my career! The courses are top-notch and the instructors are incredibly knowledgeable."</p>
+            <div class="flex items-center">
+                <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80" alt="User 1" class="w-12 h-12 rounded-full mr-4">
+                <div>
+                    <h4 class="font-semibold">John Doe</h4>
+                    <p class="text-sm text-gray-600">Web Developer</p>
+                </div> 
+            </div>
+        </div>
+        <div class="bg-white text-gray-800 p-6 rounded-lg shadow-lg">
+            <p class="text-lg mb-4">"iLearn has transformed my career! The courses are top-notch and the instructors are incredibly knowledgeable."</p>
+            <div class="flex items-center">
+                <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80" alt="User 1" class="w-12 h-12 rounded-full mr-4">
+                <div>
+                    <h4 class="font-semibold">John Doe</h4>
+                    <p class="text-sm text-gray-600">Web Developer</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+</section> 
+  
+</body>
+</html>
